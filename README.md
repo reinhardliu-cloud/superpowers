@@ -26,7 +26,7 @@ Thanks!
 
 ## Installation
 
-**Note:** Installation differs by platform. Claude Code or Cursor have built-in plugin marketplaces. Codex and OpenCode require manual setup.
+**Note:** Installation differs by platform. Claude Code or Cursor have built-in plugin marketplaces. Codex, OpenCode, and GitHub Copilot in VS Code require manual setup.
 
 ### Claude Code Official Marketplace
 
@@ -88,6 +88,12 @@ Fetch and follow instructions from https://raw.githubusercontent.com/obra/superp
 copilot plugin marketplace add obra/superpowers-marketplace
 copilot plugin install superpowers@superpowers-marketplace
 ```
+
+### GitHub Copilot in VS Code
+
+Superpowers can also be installed into a repository as project-local Copilot instructions, skills, and custom agents.
+
+**Detailed docs:** [docs/README.copilot.md](docs/README.copilot.md)
 
 ### Gemini CLI
 
